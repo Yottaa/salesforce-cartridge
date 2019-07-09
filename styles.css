@@ -1,0 +1,23 @@
+html, body {
+	padding: 0;
+	margin: 0;
+}
+
+.logo_bar {
+	background-color: #329ace;
+	height: 150px;
+}
+
+.logos {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 3.7vw;
+	line-height: 50px;
+	padding: 50px 30px;
+	letter-spacing: 4px;
+}
+
+
+
+/* font-family: 'Lato', sans-serif;
+font-family: 'Libre Franklin', sans-serif; */
