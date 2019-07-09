@@ -50,7 +50,6 @@ html, body {
 	font-family: 'Libre Franklin', sans-serif;
 	text-align: center;
 	color: #329ace;
-	padding: 5px 25px;
 }
 
 .column_image {
@@ -65,15 +64,17 @@ html, body {
   }
   h3.column_title {
   	font-size: 20px;
+  	padding: 5px 25px;
   }
 }
 
 @media screen and (min-width: 701px) {
   img.column_image {
-    width: 320px;
+    width: 300px;
   }
   h3.column_title {
   	font-size: 26px;
+  	padding: 5px 50px;
   }
 }
 
@@ -105,9 +106,6 @@ input {
 	border: none;
 	border-bottom: 1px solid #ccc;
 }
-
-
-
 
 
 /* font-family: 'Lato', sans-serif;
