@@ -22,15 +22,15 @@ html, body {
 }
 
 @media screen and (max-width: 700px) {
-  div.logos {
-    font-size: 30px;
-  }
+	div.logos {
+    	font-size: 30px;
+	}
 }
 
 @media screen and (min-width: 701px) {
-  div.logos {
-    font-size: 45px;
-  }
+	div.logos {
+    	font-size: 45px;
+	}
 }
 
 /* Main Body (Columns) */
@@ -59,23 +59,23 @@ html, body {
 }
 
 @media screen and (max-width: 700px) {
-  img.column_image {
-    width: 220px;
-  }
-  h3.column_title {
-  	font-size: 20px;
-  	padding: 5px 25px;
-  }
+	img.column_image {
+    	width: 220px;
+	}
+	h3.column_title {
+  		font-size: 20px;
+  		padding: 5px 25px;
+  	}
 }
 
 @media screen and (min-width: 701px) {
-  img.column_image {
-    width: 300px;
-  }
-  h3.column_title {
-  	font-size: 26px;
-  	padding: 5px 50px;
-  }
+	img.column_image {
+    	width: 300px;
+  	}
+	h3.column_title {
+  		font-size: 26px;
+  		padding: 5px 50px;
+  	}
 }
 
 /* Column 2 */
@@ -105,16 +105,16 @@ input[type=text] {
 }
 
 input[type=submit] {
+	cursor: pointer;
 	display: block;
 	margin: auto;
-	background-color: #6cc600;
-	color: white;
-	padding: 14px 20px;
-	border: none;
-	border-radius: 4px;
-	cursor: pointer;
 	font-family: 'Lato', sans-serif;
 	font-size: 16px;
+	color: #fff;
+	background-color: #6cc600;
+	padding: 15px 18px;
+	border: none;
+	border-radius: 5px;	
 }
 
 .button_wrap {
@@ -143,7 +143,7 @@ input[type=submit] {
 	text-decoration: none;
 }
 
-/* Main Body (No Columns) */
+/* Info/Image section (below) */
 
 .line {
 	margin: 15px 25px 25px 20px;
@@ -156,6 +156,50 @@ input[type=submit] {
 	width: 75%;
 	text-align: center;
 	margin: auto;
+}
+
+.image_collection {
+	text-align: center;
+    margin-top: 0px;
+}
+
+.computer_image {
+	display: inline-block;
+    margin: 0 auto;
+    width: 35%;
+}
+
+.chart_image {
+	display: inline-block;
+    margin: 0 auto;
+    width: 35%;
+}
+
+.title_cta {
+	font-family: 'Lato', sans-serif;
+	color: #329ace;
+	width: 75%;
+	text-align: center;
+	margin: auto;
+	padding: 20px;
+}
+
+@media screen and (max-width: 700px) {
+	h2.title {
+  		font-size: 21px;
+  	}
+	h2.title_cta {
+  		font-size: 21px;
+  	}
+}
+
+@media screen and (min-width: 701px) {
+	h2.title {
+  		font-size: 26px;
+  	}
+	h2.title_cta {
+  		font-size: 26px;
+  	}
 }
 
 /* font-family: 'Lato', sans-serif;
