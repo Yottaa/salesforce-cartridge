@@ -1,0 +1,56 @@
+* HTML/Body */
+
+html, body {
+	padding: 0;
+	margin: 0;
+}
+
+/* Logo Bar */
+
+.logo_bar {
+	background-color: #329ace;
+	height: 130px;
+}
+
+.logos {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	/*font-size: 3.7vw;*/
+	line-height: 50px;
+	padding: 40px 30px;
+	letter-spacing: 4px;
+}
+
+@media screen and (max-width: 700px) {
+	div.logos {
+    	font-size: 30px;
+	}
+}
+
+@media screen and (min-width: 701px) {
+	div.logos {
+    	font-size: 45px;
+	}
+}
+
+/* Footer */
+
+.footer {
+	width: 100%;
+	height: 40px;
+	background-color: #329ace;
+	color: #000;
+	text-align: center;
+	font-size: 12px;
+}
+
+.footer_text {
+	padding: 12px 12px 11px;
+	font-family: 'Libre Franklin', sans-serif;
+	color: #000;
+}
+
+.priv_pol_link {
+	color: #000;
+	text-decoration: none;
+}
