@@ -1,4 +1,4 @@
-* HTML/Body */
+/* HTML/Body */
 
 html, body {
 	padding: 0;
@@ -15,7 +15,6 @@ html, body {
 .logos {
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
-	/*font-size: 3.7vw;*/
 	line-height: 50px;
 	padding: 40px 30px;
 	letter-spacing: 4px;
@@ -31,6 +30,73 @@ html, body {
 	div.logos {
     	font-size: 45px;
 	}
+}
+
+/* Body */
+
+.title {
+	font-family: 'Lato', sans-serif;
+	color: #329ace;
+	width: 75%;
+	text-align: center;
+	margin: auto;
+	padding: 25px 20px 10px;
+	font-weight: 700;
+}
+
+.completion_image {
+	display: block;
+	margin: auto;
+}
+
+.message {
+	font-family: 'Lato', sans-serif;
+	color: #329ace;
+	width: 75%;
+	text-align: center;
+	margin: auto;
+	padding: 15px;
+	font-weight: 300;
+}
+
+@media screen and (max-width: 700px) {
+	h2.title {
+  		font-size: 24px;
+  	}
+	h3.message {
+  		font-size: 18px;
+  	}
+  	img.completion_image {
+  		width: 400px;
+  	}
+}
+
+@media screen and (min-width: 701px) {
+	h2.title {
+  		font-size: 30px;
+  	}
+	h3.message {
+  		font-size: 22px;
+  	}
+  	img.completion_image {
+  		width: 600px;
+  	}
+}
+
+.portal_button {
+	display: block;
+	margin: auto;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	color: #fff;
+	text-align: center;
+	background-color: #6cc600;
+	width: 150px;
+	text-decoration: none;
+	padding: 15px 18px;
+	border: none;
+	border-radius: 5px;
 }
 
 /* Footer */
