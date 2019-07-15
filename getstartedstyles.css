@@ -90,6 +90,7 @@ label, input[type=text] {
 
 label {
 	padding-top: 40px;
+	font-weight: 700;
 }
 
 .first_label {
@@ -101,6 +102,9 @@ input[type=text] {
 	height: 30px;
 	border: none;
 	border-bottom: 1px solid #ccc;
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
 }
 
 input[type=email] {
@@ -108,6 +112,9 @@ input[type=email] {
 	height: 30px;
 	border: none;
 	border-bottom: 1px solid #ccc;
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
 }
 
 input[type=submit] {
@@ -116,11 +123,12 @@ input[type=submit] {
 	margin: auto;
 	font-family: 'Lato', sans-serif;
 	font-size: 22px;
+	font-weight: 700;
 	color: #fff;
 	background-color: #6cc600;
 	padding: 15px 25px;
 	border: none;
-	border-radius: 5px;	
+	border-radius: 5px;
 }
 
 .button_wrap {
