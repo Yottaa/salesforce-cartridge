@@ -24,17 +24,17 @@
   		<div class="main_column">
   			<h3 class="column_title">Accelerate Your Salesforce Site with Yottaa</h3>
   			<div class="form">
-  				<form>
-  					<label for="first_name" class="first_label">First Name</label>
-  					<input type="text" id="first_name" name="firstname" placeholder="">
-  					<label for="last_name">Last Name</label>
-  					<input type="text" id="last_name" name="lastname" placeholder="">
-  					<label for="corporate_email">Corporate Email</label>
-  					<input type="text" id="corporate_email" name="corporateemail" placeholder="">
+  				<form action="SalesforceGetStartedFormCompletionPage.html">
+  					<label for="first_name" class="first_label">First Name<sup>*</sup></label>
+  					<input type="text" id="first_name" name="firstname" placeholder="" required oninvalid="this.setCustomValidity('Please enter your first name')" oninput="this.setCustomValidity('')">
+  					<label for="last_name">Last Name<sup>*</sup></label>
+  					<input type="text" id="last_name" name="lastname" placeholder="" required oninvalid="this.setCustomValidity('Please enter your last name')" oninput="this.setCustomValidity('')">
+  					<label for="corporate_email">Corporate Email<sup>*</sup></label>
+  					<input type="text" id="corporate_email" name="corporateemail" placeholder="" required oninvalid="this.setCustomValidity('Please enter your email address')" oninput="this.setCustomValidity('')">
   					<label for="phone_number">Phone Number</label>
   					<input type="text" id="phone_number" name="phonenumber" placeholder="">
-  					<label for="retailer_brand">Retailer/Brand</label>
-  					<input type="text" id="retailer_brand" name="retailerbrand" placeholder="">
+  					<label for="retailer_brand">Retailer/Brand<sup>*</sup></label>
+  					<input type="text" id="retailer_brand" name="retailerbrand" placeholder="" required oninvalid="this.setCustomValidity('Please enter your retailer or brand')" oninput="this.setCustomValidity('')">
   					<div class="button_wrap"><input type="submit" value="Get Started"></div>
   				</form>
   			</div>
