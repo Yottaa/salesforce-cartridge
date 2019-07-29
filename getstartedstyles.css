@@ -56,6 +56,15 @@ html, body {
 	padding: 5px 20px;
 }
 
+.column_title_black {
+	font-family: 'Lato', sans-serif;
+	font-size: calc(16px + (21 - 16) * (100vw - 400px) / (800 - 400));
+	font-weight: 400;
+	text-align: center;
+	color: #000000;
+	padding: 5px 20px;
+}
+
 .column_image {
 	display: block;
     margin: auto;
@@ -184,7 +193,7 @@ input[type=submit] {
 .footer {
 	width: 100%;
 	background-color: #00b1e9;
-	color: #000;
+	color: #000000;
 	text-align: center;
 	font-size: 11px;
 	bottom: 0;
@@ -194,10 +203,10 @@ input[type=submit] {
 .footer_text {
 	padding: 5px;
 	font-family: 'Libre Franklin', sans-serif;
-	color: #000;
+	color: #000000;
 }
 
 .priv_pol_link {
-	color: #000;
+	color: #000000;
 	text-decoration: none;
 }
