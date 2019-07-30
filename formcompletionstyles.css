@@ -22,7 +22,7 @@ html, body {
 /* Logo Bar */
 
 .logo_bar {
-	background-color: #00b1e9;
+	background-color: #499ACB;
 }
 
 .logos {
@@ -40,7 +40,7 @@ html, body {
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 	font-size: calc(20px + (25 - 20) * (100vw - 400px) / (800 - 400));
-	color: #00b1e9;
+	color: #499ACB;
 	width: 90%;
 	text-align: center;
 	margin: auto;
@@ -59,7 +59,7 @@ html, body {
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
 	font-size: calc(18px + (21 - 18) * (100vw - 400px) / (800 - 400));
-	color: #00b1e9;
+	color: #499ACB;
 	width: 75%;
 	text-align: center;
 	margin: auto;
@@ -86,7 +86,7 @@ html, body {
 
 .footer {
 	width: 100%;
-	background-color: #00b1e9;
+	background-color: #499ACB;
 	color: #000;
 	text-align: center;
 	font-size: 11px;
