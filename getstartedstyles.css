@@ -65,6 +65,16 @@ html, body {
 	padding: 5px 20px;
 }
 
+.intro_text {
+	font-family: 'Lato', sans-serif;
+	font-size: calc(13px + (16 - 13) * (100vw - 400px) / (800 - 400));
+	font-weight: 300;
+	text-align: center;
+	color: #499ACB;
+	padding: 5px 40px;
+	padding-bottom: 0px;
+}
+
 .column_image {
 	display: block;
     margin: auto;
